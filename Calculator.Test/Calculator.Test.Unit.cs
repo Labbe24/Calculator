@@ -21,6 +21,7 @@ namespace Calculator.Test
         [TestCase(2, 3, 5)]
         [TestCase(4, 3, 7)]
         [TestCase(6, 6, 12)]
+        [TestCase(12, 23, 35)]
         public void AddTests(double a, double b, double result)
         {
             // Act
